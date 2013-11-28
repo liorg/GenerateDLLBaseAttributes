@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SharedDlls", "SharedDlls", "{229EC374-E5EA-43BF-98DB-64FF7E63B39F}"
+	ProjectSection(SolutionItems) = preProject
+		ConsoleApplication1\SharedDlls\Guardian.Menta.Common.DTO.dll = ConsoleApplication1\SharedDlls\Guardian.Menta.Common.DTO.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompilerDTO", "CompilerDTO\CompilerDTO.csproj", "{CAC761F9-5CF4-4B4C-A1FA-B541E2788ECD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CAC761F9-5CF4-4B4C-A1FA-B541E2788ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAC761F9-5CF4-4B4C-A1FA-B541E2788ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAC761F9-5CF4-4B4C-A1FA-B541E2788ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAC761F9-5CF4-4B4C-A1FA-B541E2788ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
