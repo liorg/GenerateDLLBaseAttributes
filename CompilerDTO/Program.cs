@@ -13,7 +13,7 @@ namespace CompilerDTO
     /// "$(SolutionDir)\SharedDLL\CRM\CompilerMetaDataExcute.exe"  "$(TargetPath) " "$(SolutionDir) +"\SharedDLL\CRM"
     /// </summary>
     class Program
-    {
+    { 
         static void RemoveReadOnly(string output)
         {
             FileAttributes attributes = File.GetAttributes(output);
